@@ -9,7 +9,7 @@
     <description>Simple cloud native Java backend based on Eclipse MicroProfile</description>
     <properties>
         <!-- new Maven version management -->
-        <revision>6.0.0</revision>
+        <revision>6.1.0</revision>
         <sha1></sha1>
         <changelist></changelist>
         <!-- general properties -->
