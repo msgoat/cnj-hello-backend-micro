@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.2.0] - 2022-11-08
+### Added
+### Changed
+- moved build from Drone to AWS CodeBuild
+
 ## [6.1.0] - 2022-05-24
 ### Added
 ### Changed

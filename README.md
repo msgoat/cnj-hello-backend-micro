@@ -4,7 +4,7 @@ Simplest possible cloud native java application based on Eclipse Micro Profile.
 
 ## Status
 
-![Build status](https://drone.cloudtrain.aws.msgoat.eu/api/badges/msgoat/cnj-hello-backend-micro/status.svg)
+![Build status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRm5CdjBtQ1hiU2xoT1NLNmY4SzMvRXNraXdFSFR4dDgrYkY0WnpjZWRQSGRUMkg1UkUwSVVhdDJ5bWJibGwvRmtnVzFsVU9zVmxYV3NMM1lWNjlPUG5rPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik5rZlZzcHQrNlg5dko2aDUiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 ## Release Information
 
