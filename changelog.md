@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [6.3.0] - 2022-11-11
+### Added
+### Changed
+- upgraded to Payara version 6.2022.1
+- upgraded to Jakarta EE 10
+
 ## [6.2.0] - 2022-11-08
 ### Added
 ### Changed
