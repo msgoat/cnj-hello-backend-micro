@@ -1,6 +1,6 @@
 package group.msg.at.cloud.cloudtrain.adapter.rest;
 
-import group.msg.at.cloud.common.test.adapter.rest.RestAssuredSystemTestFixture;
+import group.msg.at.cloud.common.test.rest.RestAssuredSystemTestFixture;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
