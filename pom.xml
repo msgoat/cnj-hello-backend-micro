@@ -9,7 +9,7 @@
     <description>Simple cloud native Java backend based on Eclipse MicroProfile</description>
     <properties>
         <!-- new Maven version management -->
-        <revision>7.0.0</revision>
+        <revision>7.2.0</revision>
         <sha1>.12345678</sha1>
         <changelist>.LOCAL</changelist>
         <!-- general properties -->
@@ -18,10 +18,10 @@
         <!-- runtime related properties -->
         <java.version>17</java.version>
         <jakartaee.version>10.0.0</jakartaee.version>
-        <payara.version>6.2023.2</payara.version>
+        <payara.version>6.2023.5</payara.version>
         <microprofile.version>5.0</microprofile.version>
         <!-- common logging dependencies -->
-        <slf4j.version>1.7.32</slf4j.version>
+        <slf4j.version>2.0.6</slf4j.version>
         <!-- common test dependencies -->
         <junit.version>5.8.1</junit.version>
         <restassured.version>4.5.1</restassured.version>
@@ -36,8 +36,8 @@
         <docker.verbose>true</docker.verbose>
         <docker.test.target.route>http://localhost:38080</docker.test.target.route>
         <!-- kubernetes related properties -->
-        <k8s.cluster.route>https://apps.cloudtrain.aws.msgoat.eu</k8s.cluster.route>
-        <k8s.cluster.namespace>default</k8s.cluster.namespace>
+        <k8s.cluster.route>https://${k8s.ingress.path}</k8s.cluster.route>
+        <k8s.cluster.namespace>cloudtrain</k8s.cluster.namespace>
         <k8s.ingress.host>apps.cloudtrain.aws.msgoat.eu</k8s.ingress.host>
         <k8s.ingress.path>/${k8s.cluster.namespace}/${project.artifactId}</k8s.ingress.path>
         <k8s.test.target.route>${k8s.cluster.route}${k8s.ingress.path}</k8s.test.target.route>
@@ -57,7 +57,7 @@
         <maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
         <!-- pinning versions of application type specific maven plugins -->
         <maven.war.plugin.version>3.3.2</maven.war.plugin.version>
-        <maven.payara.micro.plugin.version>1.4.0</maven.payara.micro.plugin.version>
+        <maven.payara.micro.plugin.version>2.0</maven.payara.micro.plugin.version>
         <!-- pinning versions of cloud native specific maven plugins -->
         <maven.compose.plugin.version>4.0.0</maven.compose.plugin.version>
         <maven.docker.plugin.version>0.37.0</maven.docker.plugin.version>
