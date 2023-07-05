@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
+## [7.3.0] - 2023-07-05
+### Changed
+- added explicit dependency to CloudTrain Maven repository to POM to simplify local builds
+- allowed anonymous read access to CloudTrain Maven repository to simplify local builds
+- added global docker-compose.yml file to simplify local execution
+- improved documentation in README.md
+
 ## [7.2.0] - 2023-06-01
 ### Added
 ### Changed
