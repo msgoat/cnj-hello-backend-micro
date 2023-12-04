@@ -1,6 +1,6 @@
 # cnj-hello-backend-micro
 
-Simplest possible cloud native java application based on Eclipse Micro Profile.
+Simplest possible cloud native java application based on Eclipse Micro Profile based on Payara Micro.
 
 ## Status
 

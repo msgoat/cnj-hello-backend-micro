@@ -7,14 +7,17 @@ metadata:
     app.kubernetes.io/name: cnj-hello-backend-micro
     app.kubernetes.io/instance: cnj-hello-backend-micro
     app.kubernetes.io/version: "6.0.0"
-    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/managed-by: kubectl
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    nginx.ingress.kubernetes.io/x-forwarded-prefix: /cloudtrain/cnj-hello-backend-micro
 spec:
-  ingressClassName: traefik
+  ingressClassName: nginx
   rules:
     - host: "apps.cloudtrain.aws.msgoat.eu"
       http:
         paths:
-          - path: /cloudtrain-int/cnj-hello-backend-micro
+          - path: /cloudtrain/cnj-hello-backend-micro(/|$)(.*)
             pathType: Prefix
             backend:
               service:
