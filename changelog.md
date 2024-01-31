@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
+## [8.2.0] - 2024-01-31
+### Changed
+- upgraded Payara to version 6.2024.1
+- consolidated common dependencies
+- consolidated common cloudtrain dependencies
+
 ## [8.1.0] - 2024-01-09
 ### Added
 - added new unit-test class MessageTest to make sure Jacoco measures test coverage correctly
