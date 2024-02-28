@@ -9,9 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
-## [8.2.0] - 2024-01-31
+## [8.2.0] - 2024-02-28
 ### Changed
-- upgraded Payara to version 6.2024.1
+- upgraded Payara to version 6.2024.2
 - consolidated common dependencies
 - consolidated common cloudtrain dependencies
 
