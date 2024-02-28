@@ -2,6 +2,10 @@
 
 Simplest possible cloud native java application based on Eclipse Micro Profile based on Payara Micro.
 
+The application is packaged as a multi-architecture docker image which supports the following platforms:
+* linux/amd64
+* linux/arm64/v8
+
 ## Status
 
 ![Build status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiRm5CdjBtQ1hiU2xoT1NLNmY4SzMvRXNraXdFSFR4dDgrYkY0WnpjZWRQSGRUMkg1UkUwSVVhdDJ5bWJibGwvRmtnVzFsVU9zVmxYV3NMM1lWNjlPUG5rPSIsIml2UGFyYW1ldGVyU3BlYyI6Ik5rZlZzcHQrNlg5dko2aDUiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
@@ -14,6 +18,9 @@ A changelog can be found in [changelog.md](changelog.md).
 
 `docker pull docker.cloudtrain.aws.msgoat.eu/cloudtrain/cnj-hello-backend-micro`
 
+## Helm Pull Command
+
+`helm pull oci://docker.cloudtrain.aws.msgoat.eu/cloudtrain-charts/cnj-hello-backend-micro`
 
 ## HOW-TO build this application locally
 
